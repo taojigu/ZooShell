@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C1AE43921E72E370062E5A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1AE43821E72E370062E5A7 /* AppDelegate.m */; };
+		0C1AE43C21E72E370062E5A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1AE43B21E72E370062E5A7 /* ViewController.m */; };
+		0C1AE43F21E72E370062E5A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C1AE43D21E72E370062E5A7 /* Main.storyboard */; };
+		0C1AE44121E72E380062E5A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1AE44021E72E380062E5A7 /* Assets.xcassets */; };
+		0C1AE44421E72E380062E5A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C1AE44221E72E380062E5A7 /* LaunchScreen.storyboard */; };
+		0C1AE44721E72E380062E5A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1AE44621E72E380062E5A7 /* main.m */; };
+		0C1AE45121E72E390062E5A7 /* ZooShellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1AE45021E72E390062E5A7 /* ZooShellTests.m */; };
+		0C1AE45C21E72E390062E5A7 /* ZooShellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1AE45B21E72E390062E5A7 /* ZooShellUITests.m */; };
+		6971FF963C90E4A10462E9BE /* libPods-ZooShellTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EC119A27DD9B9DFFC1D685 /* libPods-ZooShellTests.a */; };
+		C156BBFE2BD19618FB3EB9C3 /* libPods-ZooShell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F857A8B6C6B05F6320BE34BF /* libPods-ZooShell.a */; };
+		E1391ADCA6FF12276BC80BB2 /* libPods-ZooShellUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A846A1B1769AA48564207095 /* libPods-ZooShellUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C1AE44D21E72E390062E5A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C1AE42C21E72E370062E5A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1AE43321E72E370062E5A7;
+			remoteInfo = ZooShell;
+		};
+		0C1AE45821E72E390062E5A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C1AE42C21E72E370062E5A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1AE43321E72E370062E5A7;
+			remoteInfo = ZooShell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0834BDDDA402D9A3A95DE60C /* Pods-ZooShell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZooShell.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZooShell/Pods-ZooShell.release.xcconfig"; sourceTree = "<group>"; };
+		0A690BEF2B04B4C0CE9180DC /* Pods-ZooShellUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZooShellUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZooShellUITests/Pods-ZooShellUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C1AE43421E72E370062E5A7 /* ZooShell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZooShell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1AE43721E72E370062E5A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C1AE43821E72E370062E5A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C1AE43A21E72E370062E5A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C1AE43B21E72E370062E5A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C1AE43E21E72E370062E5A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C1AE44021E72E380062E5A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C1AE44321E72E380062E5A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C1AE44521E72E380062E5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C1AE44621E72E380062E5A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C1AE44C21E72E390062E5A7 /* ZooShellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZooShellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1AE45021E72E390062E5A7 /* ZooShellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZooShellTests.m; sourceTree = "<group>"; };
+		0C1AE45221E72E390062E5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C1AE45721E72E390062E5A7 /* ZooShellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZooShellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1AE45B21E72E390062E5A7 /* ZooShellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZooShellUITests.m; sourceTree = "<group>"; };
+		0C1AE45D21E72E390062E5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF0D19AACD08E14386760C8 /* Pods-ZooShellTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZooShellTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZooShellTests/Pods-ZooShellTests.debug.xcconfig"; sourceTree = "<group>"; };
+		525C042675BB7932F6FB902E /* Pods-ZooShell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZooShell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZooShell/Pods-ZooShell.debug.xcconfig"; sourceTree = "<group>"; };
+		65EC119A27DD9B9DFFC1D685 /* libPods-ZooShellTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZooShellTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B3EC98247EA8B1CA42C1DF /* Pods-ZooShellTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZooShellTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZooShellTests/Pods-ZooShellTests.release.xcconfig"; sourceTree = "<group>"; };
+		A846A1B1769AA48564207095 /* libPods-ZooShellUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZooShellUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F857A8B6C6B05F6320BE34BF /* libPods-ZooShell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZooShell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD2F4E6DBB6F49FB9A1AA2BF /* Pods-ZooShellUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZooShellUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZooShellUITests/Pods-ZooShellUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C1AE43121E72E370062E5A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C156BBFE2BD19618FB3EB9C3 /* libPods-ZooShell.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1AE44921E72E390062E5A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6971FF963C90E4A10462E9BE /* libPods-ZooShellTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1AE45421E72E390062E5A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1391ADCA6FF12276BC80BB2 /* libPods-ZooShellUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C1AE42B21E72E370062E5A7 = {
+			isa = PBXGroup;
+			children = (
+				0C1AE43621E72E370062E5A7 /* ZooShell */,
+				0C1AE44F21E72E390062E5A7 /* ZooShellTests */,
+				0C1AE45A21E72E390062E5A7 /* ZooShellUITests */,
+				0C1AE43521E72E370062E5A7 /* Products */,
+				8AA10EA1EB5099B602CABA06 /* Pods */,
+				919EC0B2B0354435FC491B0C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0C1AE43521E72E370062E5A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C1AE43421E72E370062E5A7 /* ZooShell.app */,
+				0C1AE44C21E72E390062E5A7 /* ZooShellTests.xctest */,
+				0C1AE45721E72E390062E5A7 /* ZooShellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C1AE43621E72E370062E5A7 /* ZooShell */ = {
+			isa = PBXGroup;
+			children = (
+				0C1AE43721E72E370062E5A7 /* AppDelegate.h */,
+				0C1AE43821E72E370062E5A7 /* AppDelegate.m */,
+				0C1AE43A21E72E370062E5A7 /* ViewController.h */,
+				0C1AE43B21E72E370062E5A7 /* ViewController.m */,
+				0C1AE43D21E72E370062E5A7 /* Main.storyboard */,
+				0C1AE44021E72E380062E5A7 /* Assets.xcassets */,
+				0C1AE44221E72E380062E5A7 /* LaunchScreen.storyboard */,
+				0C1AE44521E72E380062E5A7 /* Info.plist */,
+				0C1AE44621E72E380062E5A7 /* main.m */,
+			);
+			path = ZooShell;
+			sourceTree = "<group>";
+		};
+		0C1AE44F21E72E390062E5A7 /* ZooShellTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C1AE45021E72E390062E5A7 /* ZooShellTests.m */,
+				0C1AE45221E72E390062E5A7 /* Info.plist */,
+			);
+			path = ZooShellTests;
+			sourceTree = "<group>";
+		};
+		0C1AE45A21E72E390062E5A7 /* ZooShellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C1AE45B21E72E390062E5A7 /* ZooShellUITests.m */,
+				0C1AE45D21E72E390062E5A7 /* Info.plist */,
+			);
+			path = ZooShellUITests;
+			sourceTree = "<group>";
+		};
+		8AA10EA1EB5099B602CABA06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				525C042675BB7932F6FB902E /* Pods-ZooShell.debug.xcconfig */,
+				0834BDDDA402D9A3A95DE60C /* Pods-ZooShell.release.xcconfig */,
+				3EF0D19AACD08E14386760C8 /* Pods-ZooShellTests.debug.xcconfig */,
+				A2B3EC98247EA8B1CA42C1DF /* Pods-ZooShellTests.release.xcconfig */,
+				0A690BEF2B04B4C0CE9180DC /* Pods-ZooShellUITests.debug.xcconfig */,
+				FD2F4E6DBB6F49FB9A1AA2BF /* Pods-ZooShellUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		919EC0B2B0354435FC491B0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F857A8B6C6B05F6320BE34BF /* libPods-ZooShell.a */,
+				65EC119A27DD9B9DFFC1D685 /* libPods-ZooShellTests.a */,
+				A846A1B1769AA48564207095 /* libPods-ZooShellUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C1AE43321E72E370062E5A7 /* ZooShell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C1AE46021E72E390062E5A7 /* Build configuration list for PBXNativeTarget "ZooShell" */;
+			buildPhases = (
+				57A02D0058137E4948B58D7A /* [CP] Check Pods Manifest.lock */,
+				0C1AE43021E72E370062E5A7 /* Sources */,
+				0C1AE43121E72E370062E5A7 /* Frameworks */,
+				0C1AE43221E72E370062E5A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZooShell;
+			productName = ZooShell;
+			productReference = 0C1AE43421E72E370062E5A7 /* ZooShell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C1AE44B21E72E390062E5A7 /* ZooShellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C1AE46321E72E390062E5A7 /* Build configuration list for PBXNativeTarget "ZooShellTests" */;
+			buildPhases = (
+				3EBE2955CA75D242CB890A61 /* [CP] Check Pods Manifest.lock */,
+				0C1AE44821E72E390062E5A7 /* Sources */,
+				0C1AE44921E72E390062E5A7 /* Frameworks */,
+				0C1AE44A21E72E390062E5A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C1AE44E21E72E390062E5A7 /* PBXTargetDependency */,
+			);
+			name = ZooShellTests;
+			productName = ZooShellTests;
+			productReference = 0C1AE44C21E72E390062E5A7 /* ZooShellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C1AE45621E72E390062E5A7 /* ZooShellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C1AE46621E72E390062E5A7 /* Build configuration list for PBXNativeTarget "ZooShellUITests" */;
+			buildPhases = (
+				60D7A4B44EC4BBFADEB13289 /* [CP] Check Pods Manifest.lock */,
+				0C1AE45321E72E390062E5A7 /* Sources */,
+				0C1AE45421E72E390062E5A7 /* Frameworks */,
+				0C1AE45521E72E390062E5A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C1AE45921E72E390062E5A7 /* PBXTargetDependency */,
+			);
+			name = ZooShellUITests;
+			productName = ZooShellUITests;
+			productReference = 0C1AE45721E72E390062E5A7 /* ZooShellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C1AE42C21E72E370062E5A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = lianjia;
+				TargetAttributes = {
+					0C1AE43321E72E370062E5A7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					0C1AE44B21E72E390062E5A7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0C1AE43321E72E370062E5A7;
+					};
+					0C1AE45621E72E390062E5A7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0C1AE43321E72E370062E5A7;
+					};
+				};
+			};
+			buildConfigurationList = 0C1AE42F21E72E370062E5A7 /* Build configuration list for PBXProject "ZooShell" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C1AE42B21E72E370062E5A7;
+			productRefGroup = 0C1AE43521E72E370062E5A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C1AE43321E72E370062E5A7 /* ZooShell */,
+				0C1AE44B21E72E390062E5A7 /* ZooShellTests */,
+				0C1AE45621E72E390062E5A7 /* ZooShellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C1AE43221E72E370062E5A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1AE44421E72E380062E5A7 /* LaunchScreen.storyboard in Resources */,
+				0C1AE44121E72E380062E5A7 /* Assets.xcassets in Resources */,
+				0C1AE43F21E72E370062E5A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1AE44A21E72E390062E5A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1AE45521E72E390062E5A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EBE2955CA75D242CB890A61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZooShellTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57A02D0058137E4948B58D7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZooShell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60D7A4B44EC4BBFADEB13289 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZooShellUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C1AE43021E72E370062E5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1AE43C21E72E370062E5A7 /* ViewController.m in Sources */,
+				0C1AE44721E72E380062E5A7 /* main.m in Sources */,
+				0C1AE43921E72E370062E5A7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1AE44821E72E390062E5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1AE45121E72E390062E5A7 /* ZooShellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1AE45321E72E390062E5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1AE45C21E72E390062E5A7 /* ZooShellUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C1AE44E21E72E390062E5A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C1AE43321E72E370062E5A7 /* ZooShell */;
+			targetProxy = 0C1AE44D21E72E390062E5A7 /* PBXContainerItemProxy */;
+		};
+		0C1AE45921E72E390062E5A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C1AE43321E72E370062E5A7 /* ZooShell */;
+			targetProxy = 0C1AE45821E72E390062E5A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C1AE43D21E72E370062E5A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C1AE43E21E72E370062E5A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C1AE44221E72E380062E5A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C1AE44321E72E380062E5A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C1AE45E21E72E390062E5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C1AE45F21E72E390062E5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C1AE46121E72E390062E5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 525C042675BB7932F6FB902E /* Pods-ZooShell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMRACKG926;
+				INFOPLIST_FILE = ZooShell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianjia.ZooShell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C1AE46221E72E390062E5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0834BDDDA402D9A3A95DE60C /* Pods-ZooShell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMRACKG926;
+				INFOPLIST_FILE = ZooShell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianjia.ZooShell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C1AE46421E72E390062E5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EF0D19AACD08E14386760C8 /* Pods-ZooShellTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMRACKG926;
+				INFOPLIST_FILE = ZooShellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianjia.ZooShellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZooShell.app/ZooShell";
+			};
+			name = Debug;
+		};
+		0C1AE46521E72E390062E5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2B3EC98247EA8B1CA42C1DF /* Pods-ZooShellTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMRACKG926;
+				INFOPLIST_FILE = ZooShellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianjia.ZooShellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZooShell.app/ZooShell";
+			};
+			name = Release;
+		};
+		0C1AE46721E72E390062E5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A690BEF2B04B4C0CE9180DC /* Pods-ZooShellUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMRACKG926;
+				INFOPLIST_FILE = ZooShellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianjia.ZooShellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZooShell;
+			};
+			name = Debug;
+		};
+		0C1AE46821E72E390062E5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD2F4E6DBB6F49FB9A1AA2BF /* Pods-ZooShellUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMRACKG926;
+				INFOPLIST_FILE = ZooShellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianjia.ZooShellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZooShell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C1AE42F21E72E370062E5A7 /* Build configuration list for PBXProject "ZooShell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1AE45E21E72E390062E5A7 /* Debug */,
+				0C1AE45F21E72E390062E5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C1AE46021E72E390062E5A7 /* Build configuration list for PBXNativeTarget "ZooShell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1AE46121E72E390062E5A7 /* Debug */,
+				0C1AE46221E72E390062E5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C1AE46321E72E390062E5A7 /* Build configuration list for PBXNativeTarget "ZooShellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1AE46421E72E390062E5A7 /* Debug */,
+				0C1AE46521E72E390062E5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C1AE46621E72E390062E5A7 /* Build configuration list for PBXNativeTarget "ZooShellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1AE46721E72E390062E5A7 /* Debug */,
+				0C1AE46821E72E390062E5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C1AE42C21E72E370062E5A7 /* Project object */;
+}
