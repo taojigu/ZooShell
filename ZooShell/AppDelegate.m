@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <JLRoutes/JLRoutes.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self registerRouters];
     return YES;
 }
 
@@ -47,5 +49,16 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+    
+- (void)registerRouters {
+    __weak typeof(self) weakSelf = self;
+    [[JLRoutes globalRoutes] addRoute:@"tiger" handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
+        UINavigationController *navi = (UINavigationController *)weakSelf.window.rootViewController;
+        FlutterViewController *fltvc = [[FlutterViewController alloc] init];
+        [fltvc setInitialRoute:@"lion"];
+        [navi pushViewController:fltvc animated:YES];
+        return YES;
+    }];
+}
 
 @end

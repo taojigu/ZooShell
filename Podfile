@@ -6,7 +6,9 @@ target 'ZooShell' do
   # use_frameworks!
 
   # Pods for ZooShell
-  pod 'TigerComponet', :git => 'https://github.com/taojigu/TigerComponet' ,:branch =>'gate'
+  pod 'TigerComponet', :git => 'https://github.com/taojigu/TigerComponet' ,:branch =>'routerFlutter'
+  
+  pod 'zoo_shell_router', :path=>'Flutter/'
 
   target 'ZooShellTests' do
     inherit! :search_paths
