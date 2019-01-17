@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   s.vendored_frameworks = 'flutterFramework/*.framework'
   #s.vendored_frameworks = 'ios/Flutter/*.framework'
-  s.resource = 'flutter_assets'
+  s.resource = 'flutterFramework/flutter_assets'
   s.prepare_command = 'wget ftp://gerrit.lianjia.com/flutterFramework/ -r -np -nH -R index.html'
 end
