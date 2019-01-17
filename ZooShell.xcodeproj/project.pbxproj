@@ -312,7 +312,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZooShell/Pods-ZooShell-resources.sh",
-				"${PODS_ROOT}/../Flutter/flutter_assets",
+				"${PODS_ROOT}/../FtpFlutter/flutter_assets",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
@@ -400,8 +400,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZooShell/Pods-ZooShell-frameworks.sh",
-				"${PODS_ROOT}/../Flutter/App.framework",
-				"${PODS_ROOT}/../Flutter/Flutter.framework",
+				"${PODS_ROOT}/../FtpFlutter/flutterFramework/App.framework",
+				"${PODS_ROOT}/../FtpFlutter/flutterFramework/Flutter.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
