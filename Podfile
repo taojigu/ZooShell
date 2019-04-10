@@ -21,6 +21,8 @@ target 'ZooShell' do
   # Pods for ZooShell
   pod 'TigerComponet', :git => 'https://github.com/taojigu/TigerComponet' ,:branch =>'routerFlutter'
   
+  pod 'JLRoutes'
+  
   
   flutterPluginDir = "../zoo_shell_router/ios/pluginSource"
   podInstallFlutterPlugin(flutterPluginDir);
